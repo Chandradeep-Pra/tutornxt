@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const ttsApiUrl = process.env.TTS_API_URL ?? "http://testing-zone-five.vercel.app/api/viva/tts";
+const ttsApiUrl = process.env.TTS_API_URL ?? "https://testing-zone-five.vercel.app/api/viva/tts";
 
 export async function POST(request: NextRequest) {
   const body = (await request.json()) as { text?: string };

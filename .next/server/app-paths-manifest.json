@@ -1,0 +1,9 @@
+{
+  "/api/session/message/route": "app/api/session/message/route.js",
+  "/api/session/reset/route": "app/api/session/reset/route.js",
+  "/api/session/state/route": "app/api/session/state/route.js",
+  "/api/tts/route": "app/api/tts/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/session/start/route": "app/api/session/start/route.js",
+  "/page": "app/page.js"
+}

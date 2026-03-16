@@ -1,0 +1,9 @@
+{
+  "/api/session/message/route": "/api/session/message",
+  "/api/session/reset/route": "/api/session/reset",
+  "/api/session/state/route": "/api/session/state",
+  "/api/tts/route": "/api/tts",
+  "/_not-found/page": "/_not-found",
+  "/api/session/start/route": "/api/session/start",
+  "/page": "/"
+}

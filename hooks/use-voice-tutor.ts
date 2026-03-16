@@ -14,7 +14,7 @@ interface SttMessage {
   speechEnded?: boolean;
 }
 
-const STT_WS_URL = wss://testing-zone-hx7q.onrender.com";
+const STT_WS_URL = "wss://testing-zone-hx7q.onrender.com";
 const TARGET_SAMPLE_RATE = 16000;
 
 function downsampleBuffer(buffer: Float32Array, inputSampleRate: number, outputSampleRate: number) {
